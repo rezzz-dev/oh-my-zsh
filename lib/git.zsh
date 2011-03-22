@@ -55,7 +55,7 @@ git_prompt_status() {
   fi
   echo $STATUS
 }
-
+# This is the old prompt for git - didn't work with the tracking of files char
 # parse_git_dirty () {
 #   if [[ -n $(git status -s 2> /dev/null) ]]; then
 #     echo "$ZSH_THEME_GIT_PROMPT_DIRTY"
